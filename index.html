@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <main>
+      <input type="text" id="diplay" value="" />
+      <div class="keypad">
+        <input type="button" value="1" onclick="displaying(value)" />
+        <input type="button" value="2" onclick="displaying(value)" />
+        <input type="button" value="3" onclick="displaying(value)" />
+        <input type="button" value="4" onclick="displaying(value)" />
+        <input type="button" value="5" onclick="displaying(value)" />
+        <input type="button" value="6" onclick="displaying(value)" />
+        <input type="button" value="7" onclick="displaying(value)" />
+        <input type="button" value="8" onclick="displaying(value)" />
+        <input type="button" value="9" onclick="displaying(value)" />
+        <input type="button" value="0" onclick="displaying(value)" />
+        <input type="button" value="+" onclick="displaying(value)" />
+        <input type="button" value="-" onclick="displaying(value)" />
+        <input type="button" value="*" onclick="displaying(value)" />
+        <input type="button" value="/" onclick="displaying(value)" />
+        <input type="button" value="=" onclick="calculating()" />
+        <input type="button" value="X" onclick="removing()" />
+        <input type="button" value="C" onclick="clearing()" />
+      </div>
+    </main>
+  </body>
+  <script src="index.js"></script>
+</html>
